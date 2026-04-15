@@ -28,7 +28,7 @@ During my final year at college I was working as a **Student Researcher** at the
 Additionally, I have professional experience working as an **Applied Machine Learning Student Researcher** at the Fraunhofer Heinrich Hertz Institute. \
 There I worked on dynamic traffic flow forecasting using Graph Neural Networks.
 
-## Selected Papers
+# Selected Papers
 
 Full list: [DBLP](https://dblp.org/pers/hd/g/Guo:Chenjuan), [Google Scholar](https://scholar.google.dk/citations?user=WMXNm88AAAAJ&hl=en).
 
@@ -47,8 +47,8 @@ Full list: [DBLP](https://dblp.org/pers/hd/g/Guo:Chenjuan), [Google Scholar](htt
   <li class="papers-year">2025</li>
   <li><span class="paper-authors">Kasper Skytte Andersen, Kai Zhao, Alexander de Linde Agerskov, Christian Bro Sorensen, Trine Juhl Holmager, Marta Nierychlo, Miriam Peces, Chenjuan Guo, Per Halkjaer Nielsen:</span><span class="paper-title">Predicting microbial community structure and temporal dynamics by using graph neural network models. <strong>Nature Communications</strong> (2025)</span></li>
   <li><span class="paper-authors">Beibu Li, Qichao Shentu, Yang Shu, Hui Zhang, Ming Li, Ning Jin, Bin Yang, Chenjuan Guo:</span><span class="paper-title">CrossAD: Time Series Anomaly Detection with Cross-scale Associations and Cross-window Modeling. <strong>NeurIPS</strong> (2025)</span></li>
-  <li><span class="paper-authors">Xingjian Wu, Xiangfei Qiu, Hanyin Cheng, Zhengyu Li, Jilin Hu, Chenjuan Guo, Bin Yang:</span><span class="paper-title">Enhancing Time Series Forecasting through Selective Representation Spaces: A Patch Perspective. <strong>NeurIPS</strong> (2025) <span class="paper-note paper-note--spotlight">spotlight</span></span></li>
-  <li><span class="paper-authors">Siru Zhong, Junjie Qiu, Yangyu Wu, Xingchen Zou, Zhongwen Rao, Bin Yang, Chenjuan Guo, Hao Xu, Yuxuan Liang:</span><span class="paper-title">Learning to Factorize Spatio-Temporal Foundation Models. <strong>NeurIPS</strong> (2025) <span class="paper-note paper-note--spotlight">spotlight</span></span></li>
+  <li><span class="paper-authors">Xingjian Wu, Xiangfei Qiu, Hanyin Cheng, Zhengyu Li, Jilin Hu, Chenjuan Guo, Bin Yang:</span><span class="paper-title">Enhancing Time Series Forecasting through Selective Representation Spaces: A Patch Perspective. <strong>NeurIPS</strong> (2025) <span class="paper-note paper-note--spotlight">Spotlight</span></span></li>
+  <li><span class="paper-authors">Siru Zhong, Junjie Qiu, Yangyu Wu, Xingchen Zou, Zhongwen Rao, Bin Yang, Chenjuan Guo, Hao Xu, Yuxuan Liang:</span><span class="paper-title">Learning to Factorize Spatio-Temporal Foundation Models. <strong>NeurIPS</strong> (2025) <span class="paper-note paper-note--spotlight">Spotlight</span></span></li>
   <li><span class="paper-authors">Xiangfei Qiu, Xingjian Wu, Hanyin Cheng, Xvyuan Liu, Chenjuan Guo, Jilin Hu, Bin Yang:</span><span class="paper-title">DBLoss: Decomposition-based Loss Function for Time Series Forecasting. <strong>NeurIPS</strong> (2025)</span></li>
   <li><span class="paper-authors">Kai Zhao, Yuying Qiu, Yunyao Cheng, Christian S. Jensen, Xiaokui Xiao, Bin Yang, Chenjuan Guo:</span><span class="paper-title">Unsupervised Time Series Anomaly Prediction with Importance-based Generative Contrastive Learning. <strong>KDD</strong> (2025)</span></li>
   <li><span class="paper-authors">Yihang Wang, Yuying Qiu, Peng Chen, Yang Shu, Zhongwen Rao, Lujia Pan, Bin Yang, Chenjuan Guo:</span><span class="paper-title">LightGTS: A Lightweight General Time Series Forecasting Model. <strong>ICML</strong> (2025)</span></li>
