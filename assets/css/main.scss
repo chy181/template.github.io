@@ -210,7 +210,6 @@ html {
   --masthead-offset: 7.25rem;
   --profile-sidebar-width: clamp(18rem, 31vw, 24rem);
   --profile-page-gap: clamp(0.75rem, 2vw, 2rem);
-  --profile-page-pad: clamp(0.75rem, 2vw, 2rem);
   scroll-padding-top: var(--masthead-offset);
 }
 
@@ -220,9 +219,11 @@ html {
     grid-template-columns: var(--profile-sidebar-width) minmax(0, 1fr);
     column-gap: var(--profile-page-gap);
     align-items: start;
-    max-width: none;
-    padding-left: var(--profile-page-pad);
-    padding-right: var(--profile-page-pad);
+    max-width: $x-large;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 
   .sidebar.sticky {
