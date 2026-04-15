@@ -165,3 +165,11 @@
 .greedy-nav {
   background: #fff;
 }
+
+@media (min-width: 1024px) {
+  .sidebar.sticky {
+    position: fixed;
+    top: 6.25rem;
+    width: 24rem;
+  }
+}
