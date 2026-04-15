@@ -232,6 +232,8 @@ html {
     position: sticky;
     top: calc(var(--masthead-offset) + 0.75rem);
     grid-column: 1;
+    overflow: visible;
+    overscroll-behavior: none;
   }
 
   .page {
