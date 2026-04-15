@@ -42,6 +42,7 @@
 
 .academic-profile .author__avatar {
   display: block;
+  width: 260px;
   max-width: 260px;
   margin-left: 10%;
   text-align: center;
@@ -57,8 +58,14 @@
 }
 
 .academic-profile .author__content {
+  width: 260px;
   max-width: 260px;
   margin-left: 10%;
+  text-align: center;
+}
+
+.academic-profile .author__name,
+.academic-profile .author__bio {
   text-align: center;
 }
 
