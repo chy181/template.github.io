@@ -35,4 +35,22 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
+<script>
+  (function () {
+    function updateMastheadOffset() {
+      var mastheadInner = document.querySelector('.masthead__inner-wrap');
+      if (!mastheadInner) return;
+
+      var height = mastheadInner.getBoundingClientRect().height;
+      if (!height) return;
+
+      document.documentElement.style.setProperty('--masthead-offset', (height * 1.05) + 'px');
+    }
+
+    document.addEventListener('DOMContentLoaded', updateMastheadOffset);
+    window.addEventListener('load', updateMastheadOffset);
+    window.addEventListener('resize', updateMastheadOffset);
+  })();
+</script>
+
 <!-- end custom head snippets -->

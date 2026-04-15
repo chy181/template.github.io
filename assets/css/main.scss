@@ -183,7 +183,8 @@
 }
 
 html {
-  scroll-padding-top: 8.5rem;
+  --masthead-offset: 7.25rem;
+  scroll-padding-top: var(--masthead-offset);
 }
 
 @media (min-width: 1024px) {
@@ -197,7 +198,7 @@ html {
 #biography,
 #research-interests,
 #selected-publications {
-  scroll-margin-top: 7.25rem;
-  padding-top: 7.25rem;
-  margin-top: -7.25rem;
+  scroll-margin-top: var(--masthead-offset);
+  padding-top: var(--masthead-offset);
+  margin-top: calc(-1 * var(--masthead-offset));
 }
