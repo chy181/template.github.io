@@ -129,6 +129,12 @@
   margin-bottom: 0.9em;
 }
 
+.selected-papers-list .papers-year {
+  list-style: none;
+  margin: 1.1em 0 0.35em -0.9em;
+  font-weight: 700;
+}
+
 .selected-papers-list .paper-authors,
 .selected-papers-list .paper-title {
   display: block;
