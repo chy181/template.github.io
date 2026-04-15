@@ -53,6 +53,7 @@
   width: 260px;
   height: 260px;
   max-width: 260px;
+  margin: 0 auto;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -196,7 +197,7 @@ html {
 #biography,
 #research-interests,
 #selected-publications {
-  scroll-margin-top: 8.5rem;
-  padding-top: 8.5rem;
-  margin-top: -8.5rem;
+  scroll-margin-top: 7.25rem;
+  padding-top: 7.25rem;
+  margin-top: -7.25rem;
 }
