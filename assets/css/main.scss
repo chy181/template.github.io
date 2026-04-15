@@ -209,7 +209,7 @@
 html {
   --masthead-offset: 7.25rem;
   --profile-sidebar-width: clamp(18rem, 31vw, 24rem);
-  --profile-page-gap: clamp(0.35rem, 1vw, 0.9rem);
+  --profile-page-gap: clamp(0.75rem, 2vw, 2rem);
   --profile-page-pad: clamp(0.75rem, 2vw, 2rem);
   scroll-padding-top: var(--masthead-offset);
 }
