@@ -11,13 +11,16 @@ redirect_from:
 <!-- ![Illustration of combining vision and language modalities](/images/cover.jpg){: .align-right width="300px"} -->
 
 # Biography
+{: #biography }
 ---
 
 # Research Interests
+{: #research-interests }
 
 ---
 
 # Selected Publications
+{: #selected-publications }
 
 Full list: [DBLP](https://dblp.org/pers/hd/g/Guo:Chenjuan), [Google Scholar](https://scholar.google.dk/citations?user=WMXNm88AAAAJ&hl=en).
 
@@ -45,6 +48,5 @@ Full list: [DBLP](https://dblp.org/pers/hd/g/Guo:Chenjuan), [Google Scholar](htt
   <li><span class="paper-authors">Xingjian Wu, Xiangfei Qiu, Hongfan Gao, Jilin Hu, Bin Yang, <strong>Chenjuan Guo</strong>:</span><span class="paper-title">K^2VAE: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting. <strong>ICML</strong></span></li>
   <li><span class="paper-authors">Zhe Li, Xiangfei Qiu, Peng Chen, Yihang Wang, Hanyin Cheng, Yang Shu, Jilin Hu, <strong>Chenjuan Guo</strong>, Aoying Zhou, Christian S. Jensen, Bin Yang:</span><span class="paper-title">TSFM-Bench: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting. <strong>KDD</strong></span></li>
 </ul>
-
 
 
