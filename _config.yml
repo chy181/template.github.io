@@ -80,14 +80,19 @@ analytics:
 
 # Site Author
 author:
-  name             : "Boris Meinardus"
-  avatar           : "Profile_pic2.png"
-  bio              : "Openendedness at Sakana AI"
-  location         : "Tokyo, Japan"
-  employer         : "Sakana AI"
+  name             : "Bin Yang"
+  avatar           : "bin-yang.png"
+  bio              : "Chair Professor"
+  location         :
+  employer         : "School of Data Science and Engineering, East China Normal University"
+  lab              : "Decision Intelligence Lab"
+  lab_url          : "https://decisionintelligence.github.io/"
+  school_url       : "https://dase.ecnu.edu.cn/"
+  university_url   : "https://english.ecnu.edu.cn/"
+  dblp             : "https://dblp.uni-trier.de/pers/hd/y/Yang_0002:Bin"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=UMKkDVwAAAAJ"
-  email            : "boris.meinardus00@gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=qjBQhoUAAAAJ"
+  email            : "byang[at]dase.ecnu.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,24 +101,24 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "sudo-Boris"
+  github           :
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "boris-meinardus-ba2302177"
+  linkedin         :
   orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "BorisMeinardus"
+  twitter          :
   vine             :
   weibo            :
   xing             :
-  youtube          : "@borismeinardus"
+  youtube          :
   wikipedia        :
 
 
