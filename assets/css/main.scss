@@ -42,9 +42,9 @@
 
 .academic-profile .author__avatar {
   display: block;
-  width: min(260px, 90%);
+  width: min(235px, 90%);
   aspect-ratio: 1;
-  max-width: 260px;
+  max-width: 235px;
   margin-left: 5%;
   text-align: center;
 }
@@ -54,15 +54,15 @@
   width: 100%;
   aspect-ratio: 1;
   height: 100%;
-  max-width: 260px;
+  max-width: 235px;
   margin: 0 auto;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .academic-profile .author__content {
-  width: min(260px, 90%);
-  max-width: 260px;
+  width: min(235px, 90%);
+  max-width: 235px;
   margin-left: 5%;
   text-align: center;
 }
