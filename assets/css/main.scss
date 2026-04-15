@@ -47,6 +47,11 @@
 
 .academic-profile .author__avatar img {
   display: inline-block;
+  width: 260px;
+  height: 260px;
+  max-width: 260px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .academic-profile .author__content {
