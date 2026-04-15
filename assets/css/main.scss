@@ -71,7 +71,7 @@
 }
 
 .academic-profile .author__name {
-  font-size: 2.1rem;
+  font-size: 1.95rem;
 }
 
 .academic-profile .author__bio {
@@ -205,4 +205,17 @@ html {
   scroll-margin-top: var(--masthead-offset);
   padding-top: var(--masthead-offset);
   margin-top: calc(-1 * var(--masthead-offset));
+}
+
+.page__footer {
+  margin-top: 1.5em;
+}
+
+.page__footer footer {
+  margin-top: 1em;
+  padding: 0 1em 1em;
+}
+
+.page__footer-copyright {
+  font-size: 0.8rem;
 }
