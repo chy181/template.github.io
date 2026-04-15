@@ -320,4 +320,16 @@
   .author__sub-link {
     margin-left: 1.6em;
   }
+
+  .author__affiliation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    text-align: left;
+
+    i {
+      flex: 0 0 auto;
+    }
+  }
 }
