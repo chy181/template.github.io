@@ -42,12 +42,13 @@
 
 .academic-profile .author__avatar {
   display: block;
-  text-align: left;
-  padding-left: 1.5rem;
+  max-width: 260px;
+  margin-left: 10%;
+  text-align: center;
 }
 
 .academic-profile .author__avatar img {
-  display: inline-block;
+  display: block;
   width: 260px;
   height: 260px;
   max-width: 260px;
@@ -56,8 +57,9 @@
 }
 
 .academic-profile .author__content {
-  text-align: left;
-  padding-left: 1.5rem;
+  max-width: 260px;
+  margin-left: 10%;
+  text-align: center;
 }
 
 .academic-profile .author__bio {
@@ -172,6 +174,10 @@
   background: #fff;
 }
 
+html {
+  scroll-padding-top: 8.5rem;
+}
+
 @media (min-width: 1024px) {
   .sidebar.sticky {
     position: fixed;
@@ -183,7 +189,7 @@
 #biography,
 #research-interests,
 #selected-publications {
-  scroll-margin-top: 8rem;
+  scroll-margin-top: 8.5rem;
 }
 
 #biography:target::before,
@@ -191,8 +197,8 @@
 #selected-publications:target::before {
   content: "";
   display: block;
-  height: 8rem;
-  margin-top: -8rem;
+  height: 8.5rem;
+  margin-top: -8.5rem;
   visibility: hidden;
   pointer-events: none;
 }
