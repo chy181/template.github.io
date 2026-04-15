@@ -1,19 +1,14 @@
 # main links links
 main:
-  - title: "Home"
-    url: /
+  - title: "CV"
+    url: /cv/
+
+  - title: "Portfolio"
+    url: /portfolio/
 
   - title: "Publications"
     url: /publications/
-
-  - title: "Lab"
-    url: https://decisionintelligence.github.io/
-
-  - title: "Google Scholar"
-    url: https://scholar.google.dk/citations?user=WMXNm88AAAAJ&hl=en
-
-  - title: "ECNU Profile"
-    url: https://faculty.ecnu.edu.cn/_s37/gcj/main.psp
+    # url: https://scholar.google.es/citations?user=xxxxxxxx=en
         
   # - title: "Blog Posts"
   #   url: /year-archive/
