@@ -237,13 +237,10 @@
 }
 
 .academic-profile {
-  box-sizing: border-box;
-  margin-right: 1rem;
   padding: 1.5rem 0.75rem;
   text-align: center;
   background: #28284c;
   color: #f5f5fb;
-  overflow-wrap: break-word;
 
   .author__avatar {
     display: block;
@@ -320,7 +317,6 @@
   }
 
   .author__sub-link {
-    display: inline-block;
     margin-left: 1.6em;
   }
 }
