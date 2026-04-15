@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Bin Yang"
+  name             : "Chenjuan Guo"
   avatar           : "bin-yang.png"
   bio              : "Professor"
   location         :
@@ -92,7 +92,7 @@ author:
   dblp             : "https://dblp.uni-trier.de/pers/hd/y/Yang_0002:Bin"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=qjBQhoUAAAAJ"
-  email            : "byang[at]dase.ecnu.edu.cn"
+  email            : "cjguo@dase.ecnu.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
