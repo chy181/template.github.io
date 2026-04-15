@@ -148,3 +148,15 @@
   color: #c0392b;
   font-weight: 700;
 }
+
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+}
+
+.masthead__inner-wrap,
+.greedy-nav {
+  background: #fff;
+}
