@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋🏼 Hello there, I'm Boris!"
+title: "Chenjuan Guo's Homepage"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,25 +8,14 @@ redirect_from:
   - /about.html
 ---
 
+<!-- ![Illustration of combining vision and language modalities](/images/cover.jpg){: .align-right width="300px"} -->
 
+# Biography
+---
 
-![Illustration of combining vision and language modalities](/images/cover.jpg){: .align-right width="300px"}
-👨🏻‍💻 I'm a Research Scientist at Sakana AI.
+# Research Interests
 
-🔬 My research interests are in Openended Learning using large foundation models!
-
-📽️ I am also interested in assisting others on their path in the world of Machine Learning and academia.
-
-# Selected Experience
-
-## 👨🏻‍🔬 Professional Experience
-Currently, I am working as a **Research Scientist** at Sakana AI exploring how to develop an *openended algorithm to coevolve a population of agents and the environment they are in*. \
-Before this, I explored latent reasoning by combining diffusion models with large language models and how to train a process reward model for training multimodal large language models as UI-Agents.
-
-During my final year at college I was working as a **Student Researcher** at the Reliable Multimodal AI Lab at the TU Darmstadt under the supervision of Prof. Marcus Rohrbach working on **Generative Video-Language Modelling**.
-
-Additionally, I have professional experience working as an **Applied Machine Learning Student Researcher** at the Fraunhofer Heinrich Hertz Institute. \
-There I worked on dynamic traffic flow forecasting using Graph Neural Networks.
+---
 
 # Selected Publications
 
