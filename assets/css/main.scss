@@ -40,6 +40,19 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+.academic-profile .author__avatar {
+  display: block;
+  text-align: center;
+}
+
+.academic-profile .author__avatar img {
+  display: inline-block;
+}
+
+.academic-profile .author__content {
+  text-align: center;
+}
+
 .academic-profile .author__urls .author__affiliation {
   display: flex;
   align-items: center;
@@ -66,4 +79,5 @@
   margin: 0;
   padding: 0;
   line-height: 1.25;
+  white-space: nowrap;
 }
