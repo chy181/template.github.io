@@ -42,16 +42,18 @@
 
 .academic-profile .author__avatar {
   display: block;
-  width: 260px;
+  width: min(260px, 90%);
+  aspect-ratio: 1;
   max-width: 260px;
-  margin-left: 10%;
+  margin-left: 5%;
   text-align: center;
 }
 
 .academic-profile .author__avatar img {
   display: block;
-  width: 260px;
-  height: 260px;
+  width: 100%;
+  aspect-ratio: 1;
+  height: 100%;
   max-width: 260px;
   margin: 0 auto;
   border-radius: 50%;
@@ -59,9 +61,9 @@
 }
 
 .academic-profile .author__content {
-  width: 260px;
+  width: min(260px, 90%);
   max-width: 260px;
-  margin-left: 10%;
+  margin-left: 5%;
   text-align: center;
 }
 
@@ -206,14 +208,48 @@
 
 html {
   --masthead-offset: 7.25rem;
+  --profile-sidebar-width: clamp(18rem, 31vw, 24rem);
+  --profile-page-gap: clamp(0.75rem, 2vw, 2rem);
+  --profile-page-pad: clamp(0.75rem, 2vw, 2rem);
   scroll-padding-top: var(--masthead-offset);
 }
 
 @media (min-width: 1024px) {
+  #main {
+    max-width: none;
+    padding-left: var(--profile-page-pad);
+    padding-right: var(--profile-page-pad);
+  }
+
   .sidebar.sticky {
     position: fixed;
-    top: 6.25rem;
-    width: 24rem;
+    top: calc(var(--masthead-offset) + 0.75rem);
+    left: var(--profile-page-pad);
+    width: var(--profile-sidebar-width);
+  }
+
+  .page {
+    float: none;
+    width: auto;
+    margin-left: calc(var(--profile-sidebar-width) + var(--profile-page-gap));
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1180px) {
+  html {
+    --profile-sidebar-width: clamp(16rem, 30vw, 20rem);
+  }
+
+  .academic-profile .author__avatar,
+  .academic-profile .author__content {
+    width: min(240px, 100%);
+    max-width: 240px;
+  }
+
+  .academic-profile .author__avatar img {
+    width: 100%;
   }
 }
 
