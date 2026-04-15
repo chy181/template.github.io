@@ -25,14 +25,11 @@
       <div class="author__urls-wrapper">
             <button class="btn btn--inverse">Follow</button>
             <ul class="author__urls social-icons">
-                  {% if author.bio %}
-                  <li><i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> {{ author.bio }}</li>
-                  {% endif %}
                   {% if author.lab %}
                   <li><a href="{{ author.lab_url }}"><i class="fa fa-fw fa-flask" aria-hidden="true"></i> {{ author.lab }}</a></li>
                   {% endif %}
                   {% if author.employer %}
-                  <li class="author__affiliation"><i class="fa fa-fw fa-university" aria-hidden="true"></i><span class="author__affiliation-text"><a href="{{ author.school_url }}">School of Data Science</a><a href="{{ author.school_url }}">and Engineering,</a><a href="{{ author.university_url }}">East China Normal University</a></span></li>
+                  <li class="author__affiliation"><i class="fa fa-fw fa-university" aria-hidden="true"></i><span class="author__affiliation-text"><a href="{{ author.school_url }}">School of Data Science and Engineering,</a><a href="{{ author.university_url }}">East China Normal University</a></span></li>
                   {% endif %}
                   {% if author.googlescholar %}
                   <li><a href="{{ author.googlescholar }}"><i class="fa fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
