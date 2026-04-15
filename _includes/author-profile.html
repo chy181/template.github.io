@@ -10,7 +10,7 @@
             {% if author.avatar contains "://" %}
             <img src="{{ author.avatar }}" alt="{{ author.name }}">
             {% else %}
-            <img src="{{ author.avatar | prepend: " /images/" | prepend: base_path }}" class="author__avatar"
+            <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar"
                   alt="{{ author.name }}">
             {% endif %}
       </div>
@@ -30,7 +30,7 @@
                   <li><a href="{{ author.lab_url }}"><i class="fa fa-fw fa-flask" aria-hidden="true"></i> {{ author.lab }}</a></li>
                   {% endif %}
                   {% if author.employer %}
-                  <li><a href="{{ author.school_url }}"><i class="fa fa-fw fa-university" aria-hidden="true"></i> School of Data Science and Engineering,</a><br><a class="author__sub-link" href="{{ author.university_url }}">East China Normal University</a></li>
+                  <li><a href="{{ author.school_url }}"><i class="fa fa-fw fa-university" aria-hidden="true"></i> School of Data Science<br><span class="author__sub-link">and Engineering,</span></a><br><a class="author__sub-link" href="{{ author.university_url }}">East China Normal University</a></li>
                   {% endif %}
                   {% if author.googlescholar %}
                   <li><a href="{{ author.googlescholar }}"><i class="fa fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
