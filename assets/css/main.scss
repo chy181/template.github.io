@@ -183,3 +183,14 @@
 #selected-publications {
   scroll-margin-top: 8rem;
 }
+
+#biography:target::before,
+#research-interests:target::before,
+#selected-publications:target::before {
+  content: "";
+  display: block;
+  height: 8rem;
+  margin-top: -8rem;
+  visibility: hidden;
+  pointer-events: none;
+}
