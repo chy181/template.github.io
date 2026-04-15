@@ -149,8 +149,12 @@
   font-style: italic;
 }
 
-.selected-papers-list .paper-note--spotlight {
+.selected-papers-list .paper-title strong {
   color: #c0392b;
+}
+
+.selected-papers-list .paper-note--spotlight {
+  color: #1f78b4;
   font-weight: 700;
 }
 
