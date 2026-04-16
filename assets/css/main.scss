@@ -222,8 +222,8 @@ html {
     max-width: $x-large;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: clamp(2.5rem, 4vw, 4.5rem);
+    padding-right: clamp(3.5rem, 6vw, 6rem);
   }
 
   .sidebar.sticky {
@@ -240,6 +240,7 @@ html {
   .page {
     float: none;
     width: 100%;
+    max-width: 920px;
     min-width: 0;
     margin-left: 0;
     padding-left: 0;
