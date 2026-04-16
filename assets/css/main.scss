@@ -45,7 +45,7 @@
   width: min(210px, 90%);
   aspect-ratio: 1;
   max-width: 210px;
-  margin-left: 5%;
+  margin-left: 10%;
   text-align: center;
 }
 
@@ -63,7 +63,7 @@
 .academic-profile .author__content {
   width: min(210px, 90%);
   max-width: 210px;
-  margin-left: 5%;
+  margin-left: 10%;
   text-align: center;
 }
 
@@ -208,7 +208,7 @@
 
 html {
   --masthead-offset: 7.25rem;
-  --profile-sidebar-width: clamp(18rem, 31vw, 24rem);
+  --profile-sidebar-width: clamp(19rem, 32vw, 25rem);
   --profile-page-gap: clamp(0.75rem, 2vw, 2rem);
   scroll-padding-top: var(--masthead-offset);
 }
