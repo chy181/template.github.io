@@ -320,6 +320,17 @@ body {
   }
 }
 
+@media (min-width: 1181px) and (max-width: 1440px) {
+  #main {
+    padding-left: clamp(1.25rem, 2.5vw, 2.25rem);
+    padding-right: clamp(1.5rem, 3vw, 2.75rem);
+  }
+
+  .page {
+    max-width: 980px;
+  }
+}
+
 #biography,
 #research-interests,
 #selected-publications {
