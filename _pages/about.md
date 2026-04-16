@@ -33,6 +33,18 @@ Time Series Foundation Models, AutoML, Multi-Agents
 Full list: [DBLP](https://dblp.org/pers/hd/g/Guo:Chenjuan), [Google Scholar](https://scholar.google.dk/citations?user=WMXNm88AAAAJ&hl=en).
 
 <style>
+  .page__content a {
+    color: #4887d6;
+    text-decoration: none;
+  }
+
+  .page__content a:hover,
+  .page__content a:focus,
+  .page__content a:active {
+    color: #356eb7;
+    text-decoration: underline;
+  }
+
   .selected-papers-list .paper-authors,
   .selected-papers-list .paper-title {
     display: inline;
