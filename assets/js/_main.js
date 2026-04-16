@@ -5,10 +5,8 @@
 $(document).ready(function(){
   var syncFixedLayout = function() {
     var mastheadHeight = Math.ceil($(".masthead").outerHeight() || 0);
-    var footerHeight = Math.ceil($(".page__footer").outerHeight() || 0);
     document.documentElement.style.setProperty("--masthead-height", mastheadHeight + "px");
     document.documentElement.style.setProperty("--masthead-offset", (mastheadHeight + 20) + "px");
-    document.documentElement.style.setProperty("--footer-height", footerHeight + "px");
   };
 
   syncFixedLayout();

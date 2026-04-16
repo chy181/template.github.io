@@ -245,7 +245,6 @@
 html {
   --masthead-height: 5.75rem;
   --masthead-offset: calc(var(--masthead-height) + 1.25rem);
-  --footer-height: 5.5rem;
   --profile-sidebar-width: clamp(19rem, 32vw, 25rem);
   --profile-page-gap: clamp(0.75rem, 2vw, 2rem);
   scroll-padding-top: var(--masthead-offset);
@@ -253,7 +252,6 @@ html {
 
 body {
   padding-top: var(--masthead-height);
-  padding-bottom: var(--footer-height);
 }
 
 @media (min-width: 1024px) {
@@ -330,13 +328,7 @@ body {
 }
 
 .page__footer {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 90;
-  width: 100%;
-  margin-top: 0;
+  margin-top: 1.5em;
 }
 
 .page__footer footer {
