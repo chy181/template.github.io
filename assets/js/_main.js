@@ -3,23 +3,15 @@
    ========================================================================== */
 
 $(document).ready(function(){
-   // Sticky footer
-  var bumpIt = function() {
-      $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
-    },
-    didResize = false;
+  var syncFixedLayout = function() {
+    var mastheadHeight = Math.ceil($(".masthead").outerHeight() || 0);
+    var footerHeight = Math.ceil($(".page__footer").outerHeight() || 0);
+    document.documentElement.style.setProperty("--masthead-height", mastheadHeight + "px");
+    document.documentElement.style.setProperty("--masthead-offset", (mastheadHeight + 20) + "px");
+    document.documentElement.style.setProperty("--footer-height", footerHeight + "px");
+  };
 
-  bumpIt();
-
-  $(window).resize(function() {
-    didResize = true;
-  });
-  setInterval(function() {
-    if (didResize) {
-      didResize = false;
-      bumpIt();
-    }
-  }, 250);
+  syncFixedLayout();
   // FitVids init
   $("#main").fitVids();
 
@@ -35,6 +27,7 @@ $(document).ready(function(){
   stickySideBar();
 
   $(window).resize(function(){
+    syncFixedLayout();
     stickySideBar();
   });
 
