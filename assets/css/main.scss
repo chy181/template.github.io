@@ -246,7 +246,7 @@
 html {
   --masthead-height: 5.75rem;
   --masthead-offset: calc(var(--masthead-height) + 1.25rem);
-  --profile-sidebar-width: clamp(16rem, 26vw, 21rem);
+  --profile-sidebar-width: clamp(19rem, 32vw, 25rem);
   --profile-page-gap: clamp(1rem, 2vw, 2.25rem);
   scroll-padding-top: var(--masthead-offset);
 }
@@ -261,11 +261,11 @@ body {
     grid-template-columns: var(--profile-sidebar-width) minmax(0, 1fr);
     column-gap: var(--profile-page-gap);
     align-items: start;
-    max-width: $x-large;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: clamp(1.5rem, 3vw, 3rem);
-    padding-right: clamp(1.5rem, 3vw, 3rem);
+    padding-left: clamp(0.75rem, 2vw, 1.75rem);
+    padding-right: clamp(0.75rem, 2vw, 1.75rem);
   }
 
   .sidebar.sticky {
@@ -306,7 +306,7 @@ body {
 
 @media (min-width: 1024px) and (max-width: 1180px) {
   html {
-    --profile-sidebar-width: clamp(14.5rem, 26vw, 18rem);
+    --profile-sidebar-width: clamp(16rem, 30vw, 20rem);
   }
 
   .academic-profile .author__avatar,
