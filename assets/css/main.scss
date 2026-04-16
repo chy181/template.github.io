@@ -150,12 +150,14 @@
 }
 
 .academic-profile .author__urls .author__affiliation-text {
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
   min-width: 0;
 }
 
 .academic-profile .author__urls .author__affiliation a {
-  display: inline;
+  display: block;
   margin: 0;
   padding: 0;
   line-height: 1.25;
