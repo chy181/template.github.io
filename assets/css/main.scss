@@ -187,14 +187,15 @@
 
 .selected-papers-list .papers-year {
   list-style: none;
-  margin: 1.1em 0 0.35em -0.9em;
+  margin: 0 0 0.35em -0.9em;
   font-size: 1.08em;
   font-weight: 700;
   position: sticky;
   top: calc(var(--masthead-height) + 0.6rem);
   z-index: 30;
   background: #fff;
-  padding: 0.35rem 0;
+  padding: 1.1em 0 0.35rem;
+  box-shadow: 0 -1.1em 0 #fff;
 }
 
 .selected-papers-list .paper-authors,
