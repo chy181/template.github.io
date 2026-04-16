@@ -45,7 +45,8 @@
   width: min(210px, 90%);
   aspect-ratio: 1;
   max-width: 210px;
-  margin-left: 10%;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
@@ -61,10 +62,20 @@
 }
 
 .academic-profile .author__content {
+  display: block;
   width: min(210px, 90%);
   max-width: 210px;
-  margin-left: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
   text-align: center;
+}
+
+.academic-profile .author__urls-wrapper {
+  display: block;
+  width: 100%;
+  margin-top: 1.2rem;
 }
 
 .academic-profile .author__name,
@@ -87,8 +98,8 @@
   display: block;
   position: relative;
   right: auto;
-  left: 50%;
-  transform: translateX(-50%);
+  left: auto;
+  transform: none;
   z-index: auto;
   margin: 0;
   padding: 0;
@@ -251,6 +262,17 @@ html {
     padding-left: clamp(2rem, 3vw, 3.5rem);
     overflow: visible;
     overscroll-behavior: none;
+  }
+
+  .academic-profile .author__avatar,
+  .academic-profile .author__content {
+    margin-left: 10%;
+    margin-right: 0;
+  }
+
+  .academic-profile .author__urls {
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .page {
