@@ -20,7 +20,11 @@ I serve as a Program Committee member and Area Chair for numerous prestigious co
 ---
 
 <h1 id="research-interests">Research Interests</h1>
-Data management and analytics, machine learning, time series analytics, spatio-temporal data analytics, AI for Science, time series foundation models, AutoML, and multi-agent systems.
+Data Management and Analytics, Machine Learning
+
+Time Series Analytics, Spatio-Temporal Data Analytics, AI for Science
+
+Time Series Foundation Models, AutoML, Multi-Agents
 
 ---
 
