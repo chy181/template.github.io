@@ -233,6 +233,7 @@ html {
     position: sticky;
     top: calc(var(--masthead-offset) + 0.75rem);
     grid-column: 1;
+    padding-left: clamp(2rem, 3vw, 3.5rem);
     overflow: visible;
     overscroll-behavior: none;
   }
