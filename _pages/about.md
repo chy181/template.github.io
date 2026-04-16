@@ -21,6 +21,17 @@ redirect_from:
 
 Full list: [DBLP](https://dblp.org/pers/hd/g/Guo:Chenjuan), [Google Scholar](https://scholar.google.dk/citations?user=WMXNm88AAAAJ&hl=en).
 
+<style>
+  .selected-papers-list .paper-authors,
+  .selected-papers-list .paper-title {
+    display: inline;
+  }
+
+  .selected-papers-list .paper-authors::after {
+    content: " ";
+  }
+</style>
+
 <ul class="selected-papers-list">
   <li class="papers-year">2026</li>
   <li><span class="paper-authors">Xingjian Wu, Jianxin Jin, Wanghui Qiu, Peng Chen, Yang Shu, Bin Yang, <strong>Chenjuan Guo</strong>:</span><span class="paper-title">Aurora: Towards Universal Generative Multimodal Time Series Forecasting. <strong>ICLR</strong></span></li>
@@ -45,4 +56,3 @@ Full list: [DBLP](https://dblp.org/pers/hd/g/Guo:Chenjuan), [Google Scholar](htt
   <li><span class="paper-authors">Xingjian Wu, Xiangfei Qiu, Hongfan Gao, Jilin Hu, Bin Yang, <strong>Chenjuan Guo</strong>:</span><span class="paper-title">K^2VAE: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting. <strong>ICML</strong></span></li>
   <li><span class="paper-authors">Zhe Li, Xiangfei Qiu, Peng Chen, Yihang Wang, Hanyin Cheng, Yang Shu, Jilin Hu, <strong>Chenjuan Guo</strong>, Aoying Zhou, Christian S. Jensen, Bin Yang:</span><span class="paper-title">TSFM-Bench: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting. <strong>KDD</strong></span></li>
 </ul>
-
