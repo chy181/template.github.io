@@ -29,7 +29,7 @@
                   <li><a href="{{ author.lab_url }}"><i class="fa fa-fw fa-flask" aria-hidden="true"></i> {{ author.lab }}</a></li>
                   {% endif %}
                   {% if author.employer %}
-                  <li class="author__affiliation"><i class="fa fa-fw fa-university" aria-hidden="true"></i><span class="author__affiliation-text"><a href="{{ author.school_url }}">School of Data Science and Engineering,</a><a href="{{ author.university_url }}">East China Normal University</a></span></li>
+                  <li class="author__affiliation"><i class="fa fa-fw fa-university" aria-hidden="true"></i><span class="author__affiliation-text"><a href="{{ author.school_url }}">School of Data Science and Engineering,</a> <a href="{{ author.university_url }}">East China Normal University</a></span></li>
                   {% endif %}
                   {% if author.googlescholar or author.dblp %}
                   <li class="author__scholar-links"><i class="fa fa-fw fa-graduation-cap" aria-hidden="true"></i><span class="author__scholar-text">{% if author.googlescholar %}<a href="{{ author.googlescholar }}">Google Scholar</a>{% endif %}{% if author.googlescholar and author.dblp %}<span class="author__scholar-sep">&nbsp;&nbsp;</span>{% endif %}{% if author.dblp %}<a href="{{ author.dblp }}">DBLP</a>{% endif %}</span></li>
