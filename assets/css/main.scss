@@ -232,6 +232,14 @@
   background: #fff;
 }
 
+.greedy-nav .masthead__menu-item--lg span {
+  display: block;
+  margin: 0 1rem 0 0;
+  padding: 0.5rem 0;
+  color: $masthead-link-color;
+  cursor: default;
+}
+
 html {
   --masthead-offset: 7.25rem;
   --profile-sidebar-width: clamp(19rem, 32vw, 25rem);
