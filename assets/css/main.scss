@@ -84,8 +84,23 @@
 }
 
 .academic-profile .author__urls {
+  display: block;
+  position: relative;
+  right: auto;
   left: 50%;
   transform: translateX(-50%);
+  z-index: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.academic-profile .author__urls-wrapper button,
+.academic-profile .author__urls::before,
+.academic-profile .author__urls::after {
+  display: none;
 }
 
 .academic-profile .author__urls li {
